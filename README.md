@@ -60,7 +60,7 @@ To reproduce the numerical experiments, you need to install the following softwa
 - [Nodepy](https://github.com/ketch/nodepy)
   - `pip3 install --user nodepy`
 
-Then, open a `jupyter notebook` and run the examples.
+Then, open a `jupyter notebook` and run the examples. The numerical examples were run with recent software available at the beginning of May 2020 in Kubuntu 20.04.
 
 
 ## Disclaimer
