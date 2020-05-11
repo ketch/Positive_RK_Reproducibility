@@ -38,26 +38,26 @@ use the implementations provided here, please cite this repository as
 
 To reproduce the numerical experiments, you need to install the following software.
 
-- Python 3
-- [Jupyter](https://jupyter.org/)
-- [Numba](http://numba.pydata.org/)
+- Python 3 (version 3.8.2)
+- [Jupyter](https://jupyter.org/) (jupyter-notebook version 6.0.3)
+- [Numba](http://numba.pydata.org/) (version 0.48.0)
   - either `pip3 install --user numba`
   - or `sudo apt install python3-numba`
-- [Numpy](https://numpy.org/)
+- [Numpy](https://numpy.org/) (version 1.17.4)
   - either `pip3 install --user numpy`
-  - or `sudo apt istall python3-numpy`
-- [Scipy](https://www.scipy.org/)
+  - or `sudo apt install python3-numpy`
+- [Scipy](https://www.scipy.org/) (version 1.3.3)
   - either `pip3 install --user scipy`
-  - or `sudo apt istall python3-scipy`
-- [Matplotlib](https://matplotlib.org/)
+  - or `sudo apt install python3-scipy`
+- [Matplotlib](https://matplotlib.org/) (version 3.1.2)
   - either `pip3 install --user matplotlib`
-  - or `sudo apt istall python3-matplotlib`
-- [CVXPY](https://www.cvxpy.org/)
+  - or `sudo apt install python3-matplotlib`
+- [CVXPY](https://www.cvxpy.org/) (version 1.0.31)
   - `pip3 install --user cvxpy`
-- [Mosek](https://www.mosek.com/)
+- [Mosek](https://www.mosek.com/) (version 9.2.5)
   - `pip3 install --user Mosek`
   - Get and install a license, e.g. a free academic license
-- [Nodepy](https://github.com/ketch/nodepy)
+- [Nodepy](https://github.com/ketch/nodepy) (version 0.9)
   - `pip3 install --user nodepy`
 
 Then, open a `jupyter notebook` and run the examples. The numerical examples were run with recent software available at the beginning of May 2020 in Kubuntu 20.04.

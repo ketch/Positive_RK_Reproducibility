@@ -1,0 +1,26 @@
+{
+    "description": "Positivity-Preserving Adaptive Runge-Kutta Methods",
+    "license": "mit-license",
+    "title": "ketch/Positive_RK_Reproducibility",
+    "version": "v1.0.0",
+    "upload_type": "software",
+    "publication_date": "2020-05-11",
+    "creators": [
+        {
+            "affiliation": "King Abdullah University of Science and Technology",
+            "name": "Stephan Nüßlein",
+            "orcid": "0000-0002-2455-4222"
+        },
+        {
+            "affiliation": "King Abdullah University of Science and Technology",
+            "name": "Hendrik Ranocha",
+            "orcid": "0000-0002-3456-2277"
+        },
+        {
+	    "affiliation": "King Abdullah University of Science and Technology",
+            "name": "David I. Ketcheson",
+            "orcid": "0000-0002-1212-126X"
+        }
+    ],
+    "access_right": "open"
+}
