@@ -45,13 +45,13 @@ To reproduce the numerical experiments, you need to install the following softwa
   - or `sudo apt install python3-numba`
 - [Numpy](https://numpy.org/)
   - either `pip3 install --user numpy`
-  - or `sudo apt istall python3-numpy`
+  - or `sudo apt install python3-numpy`
 - [Scipy](https://www.scipy.org/)
   - either `pip3 install --user scipy`
-  - or `sudo apt istall python3-scipy`
+  - or `sudo apt install python3-scipy`
 - [Matplotlib](https://matplotlib.org/)
   - either `pip3 install --user matplotlib`
-  - or `sudo apt istall python3-matplotlib`
+  - or `sudo apt install python3-matplotlib`
 - [CVXPY](https://www.cvxpy.org/)
   - `pip3 install --user cvxpy`
 - [Mosek](https://www.mosek.com/)
