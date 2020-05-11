@@ -9,7 +9,23 @@ import cvxpy as cp
 from scipy.optimize import linprog
 from scipy.spatial import ConvexHull, convex_hull_plot_2d
 
-
+def test_solver(solver,reduce = False,verbose_LP = False,**options):
+    print(reduce)
+    print(verbose_LP)
+    if solver == 'scipy_ip' or solver == 'scipy_sim':
+        if solver == 'scipy_ip':
+            method = 'interior-point'
+        elif solver == 'scipy_sim':
+            method = 'revised simplex'
+        #We Teat a simple Problem here to make sure that the solver is set up correctly
+        res=linprog(np.ones(2),A_ub=-np.eye(2) ,b_ub=np.ones(2), method=method,
+                  options = options)
+    else:
+        x =cp.Variable(2)
+        prob = cp.Problem(cp.Minimize(x.T@np.ones((2,1))),[x >= 2])
+        #We Teat a simple Problem here to make sure that the solver is set up correctl
+        print(options)
+        prob.solve(solver=solver,**options)
 
 def solve_LP(solver,O,rhs,rkm,b_orig,u,K,dt,reduce = False,verbose_LP = False,minval = 0,maxval=np.infty, **options):
     """
@@ -753,6 +769,8 @@ def RK_integrate(solver = [], problem = [],stepsize_control = None, dumpK=False,
 
     if not 'verbose_LP' in solver.LP_opts.keys():
         solver.LP_opts['verbose_LP'] = verbose
+
+    test_solver(solver.solver,**solver.LP_opts)
 
 
     #setup Variables for Soulution storage
