@@ -29,7 +29,7 @@ use the implementations provided here, please cite this repository as
   year={2020},
   month={05},
   howpublished={\url{https://github.com/ketch/Positive_RK_Reproducibility}},
-  doi={XXXXX}
+  doi={10.5281/zenodo.3819791}
 }
 ```
 
