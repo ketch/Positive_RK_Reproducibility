@@ -1,7 +1,7 @@
 # Positivity-Preserving Adaptive Runge-Kutta Methods
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/XXXXX.svg)](https://doi.org/XXXXX)
+[![DOI](https://zenodo.org/badge/262750089.svg)](https://zenodo.org/badge/latestdoi/262750089)
 
 This repository contains some code used in the article
 ```
