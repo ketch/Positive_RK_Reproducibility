@@ -23,12 +23,12 @@ If you find these results useful, please cite the article mentioned above. If yo
 use the implementations provided here, please cite this repository as
 ```
 @misc{nusslein2020positivityRepro,
-  title={{Positive_RK_Reproducibility}.
+  title={{Positive\_RK\_Reproducibility}.
          {P}ositivity-Preserving Adaptive {R}unge--{K}utta Methods},
-  author={N\"u\ss lein, Stephan and Ranocha, Hendrik and Ketcheson, David I},
+  author={N\"u{\ss}lein, Stephan and Ranocha, Hendrik and Ketcheson, David I},
   year={2020},
   month={05},
-  howpublished={\url{https://github.com/ketch/Positive_RK_Reproducibility}},
+  howpublished={\url{https://github.com/ketch/Positive\_RK\_Reproducibility}},
   doi={10.5281/zenodo.3819791}
 }
 ```
