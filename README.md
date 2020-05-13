@@ -7,7 +7,7 @@ This repository contains some code used in the article
 ```
 @online{nusslein2020positivity,
   title={Positivity-Preserving Adaptive {R}unge--{K}utta Methods},
-  author={N\"u\ss lein, Stephan and Ranocha, Hendrik and Ketcheson, David I},
+  author={N\"u{\ss}lein, Stephan and Ranocha, Hendrik and Ketcheson, David I},
   year={2020},
   month={05},
   eprint={2005.XXXXX},
@@ -16,8 +16,7 @@ This repository contains some code used in the article
 }
 ```
 
-> Many important differential equations model quantities whose value must remain positive or stay in some bounded interval. These bounds may not be preserved when the model is solved numerically. We propose to ensure positivity or other bounds by applying Runge-Kutta integration in which the method weights are adapted in order to enforce the bounds. The weights are chosen at each step after calculating the stage derivatives, in a way that also preserves (when possible) the order of accuracy of the method. The choice of weights is given by the solution of a linear program. We investigate different approaches to choosing the weights by considering adding further constraints. We also provide some analysis of the properties
-of Runge--Kutta methods with perturbed weights. Numerical examples demonstrate the effectiveness of the approach, including application to both stiff and non-stiff problems.
+> Many important differential equations model quantities whose value must remain positive or stay in some bounded interval. These bounds may not be preserved when the model is solved numerically. We propose to ensure positivity or other bounds by applying Runge-Kutta integration in which the method weights are adapted in order to enforce the bounds. The weights are chosen at each step after calculating the stage derivatives, in a way that also preserves (when possible) the order of accuracy of the method. The choice of weights is given by the solution of a linear program. We investigate different approaches to choosing the weights by considering adding further constraints. We also provide some analysis of the properties of Runge-Kutta methods with perturbed weights. Numerical examples demonstrate the effectiveness of the approach, including application to both stiff and non-stiff problems.
 
 If you find these results useful, please cite the article mentioned above. If you
 use the implementations provided here, please cite this repository as
