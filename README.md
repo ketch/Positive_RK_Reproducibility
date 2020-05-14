@@ -3,14 +3,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/262750089.svg)](https://zenodo.org/badge/latestdoi/262750089)
 
-This repository contains some code used in the article
+This repository contains some code used in the [article](https://arxiv.org/abs/2005.06268)
 ```
 @online{nusslein2020positivity,
   title={Positivity-Preserving Adaptive {R}unge--{K}utta Methods},
   author={N\"u{\ss}lein, Stephan and Ranocha, Hendrik and Ketcheson, David I},
   year={2020},
   month={05},
-  eprint={2005.XXXXX},
+  eprint={2005.06268},
   eprinttype={arxiv},
   eprintclass={math.NA}
 }
